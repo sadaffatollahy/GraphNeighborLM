@@ -2,3 +2,8 @@ data-preparation/data/
 Better-together/data-preparation/data/mappings/
 Better-together/data-preparation/data/relation2text-wikidata5m.json
 data-preparation/cc.en.300.bin
+
+Better-together/data-preparation/data/embeddings/
+Better-together/data-preparation/datasets/
+Better-together/data-preparation/verbalizer.log
+Better-together/data-preparation/wikidata5m_transductive.tar.gz
