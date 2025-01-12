@@ -23,3 +23,4 @@ tensorboard==2.11.0
 wget==3.2
 sh==2.0.6
 gdown
+loguru==0.7.2
