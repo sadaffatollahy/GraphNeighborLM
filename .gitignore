@@ -6,3 +6,7 @@ Better-together/data-preparation/wikidata5m_transductive.tar.gz
 Better-together/scripts/runs
 Better-together/runs
 Better-together/lm_experiments_tools/__pycache__
+G-retriever/datasets/Explanation_graph/edges
+G-retriever/datasets/Explanation_graph/graphs
+G-retriever/datasets/Explanation_graph/nodes
+G-retriever/datasets/Explanation_graph/split
