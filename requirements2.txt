@@ -1,0 +1,12 @@
+peft
+pandas
+ogb
+transformers
+wandb
+sentencepiece
+torch_geometric
+datasets
+pcst_fast
+gensim
+scipy==1.12
+protobuf
