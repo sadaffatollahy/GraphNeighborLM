@@ -10,3 +10,7 @@ G-retriever/datasets/Explanation_graph/edges
 G-retriever/datasets/Explanation_graph/graphs
 G-retriever/datasets/Explanation_graph/nodes
 G-retriever/datasets/Explanation_graph/split
+
+
+__pycache__
+*.pyc
