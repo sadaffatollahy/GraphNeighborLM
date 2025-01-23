@@ -1,0 +1,112 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ro_g-webqsp",
+  "dataset_size": 1658338115,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/rmanluo/RoG-webqsp@c0632533135a06f8c5d536b420deec5fcb5c58f3/data/train-00000-of-00002-d810a36ed97bc2cc.parquet": {
+      "num_bytes": 154472902,
+      "checksum": null
+    },
+    "hf://datasets/rmanluo/RoG-webqsp@c0632533135a06f8c5d536b420deec5fcb5c58f3/data/train-00001-of-00002-e53244e71082a392.parquet": {
+      "num_bytes": 155300860,
+      "checksum": null
+    },
+    "hf://datasets/rmanluo/RoG-webqsp@c0632533135a06f8c5d536b420deec5fcb5c58f3/data/validation-00000-of-00001-6ee6adc5b154643a.parquet": {
+      "num_bytes": 24340437,
+      "checksum": null
+    },
+    "hf://datasets/rmanluo/RoG-webqsp@c0632533135a06f8c5d536b420deec5fcb5c58f3/data/test-00000-of-00002-9ee8d68f7d951e1f.parquet": {
+      "num_bytes": 90854720,
+      "checksum": null
+    },
+    "hf://datasets/rmanluo/RoG-webqsp@c0632533135a06f8c5d536b420deec5fcb5c58f3/data/test-00001-of-00002-773a7b8213e159f5.parquet": {
+      "num_bytes": 93236638,
+      "checksum": null
+    }
+  },
+  "download_size": 518205557,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "q_entity": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "a_entity": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "graph": {
+      "feature": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "null",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2176543672,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 993540472,
+      "num_examples": 2826,
+      "shard_lengths": [
+        2413,
+        413
+      ],
+      "dataset_name": "ro_g-webqsp"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 84009553,
+      "num_examples": 246,
+      "dataset_name": "ro_g-webqsp"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 580788090,
+      "num_examples": 1628,
+      "dataset_name": "ro_g-webqsp"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
