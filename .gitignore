@@ -11,8 +11,14 @@ G-retriever/dataset/Explanation_graph/graphs
 G-retriever/dataset/Explanation_graph/nodes
 G-retriever/dataset/Explanation_graph/split
 
+G-retriever/dataset/Webqsp/edges
+G-retriever/dataset/Webqsp/graphs
+G-retriever/dataset/Webqsp/nodes
+
 
 __pycache__
 *.pyc
 *.csv
 *.pth
+*.txt
+*.pt
