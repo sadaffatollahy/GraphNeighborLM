@@ -10,3 +10,5 @@ pcst_fast
 gensim
 scipy==1.12
 protobuf
+datasets
+pcst_fast
