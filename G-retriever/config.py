@@ -8,7 +8,7 @@ def parse_args_llama():
     parser.add_argument("--project", type=str, default="project_g_retriever")
     parser.add_argument("--seed", type=int, default=0)
 
-    parser.add_argument("--dataset", type=str, default='expla_graphs')
+    parser.add_argument("--dataset", type=str, default='webqsp')
     parser.add_argument("--lr", type=float, default=1e-5)
     parser.add_argument("--wd", type=float, default=0.05)
     parser.add_argument("--patience", type=float, default=2)
