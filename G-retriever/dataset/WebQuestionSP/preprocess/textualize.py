@@ -9,7 +9,7 @@ from utils.lm_modeling import load_model, load_text2embedding
 from datasets import Dataset, DatasetDict, load_from_disk
 
 model_name = 'sbert'
-path = '/home/ahmadi/sadaf/GraphNeighborLM/G-retriever/dataset/Webqsp'
+path = '/home/ahmadi/sadaf/GraphNeighborLM/G-retriever/dataset/WebQuestionSP'
 path_nodes = f'{path}/nodes'
 path_edges = f'{path}/edges'
 path_graphs = f'{path}/graphs'
